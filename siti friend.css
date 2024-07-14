@@ -1,0 +1,81 @@
+.main-contain{
+    text-align: center;
+    text-decoration: double;
+    color: rgb(163, 209, 194);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(140, 108, 141);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: rgb(185, 141, 183);
+    text-align: center;
+    width: 228px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image{
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.tadi-1{
+    background-image: url(tadika\ 1.jpg);
+}
+
+.tadi-2{
+    background-image: url(tadika\ 2.jpg);
+}
+
+.tadi-3{
+    background-image: url(tadika\ 3.jpg);
+}
+
+.f1{
+    background-image: url(1F6.jpg);
+}
+
+.f2{
+    background-image: url(2F6.jpg);
+}
+
+.f3{
+    background-image: url(3F6.jpg);
+}
+
+.dg1{
+    background-image: url(deg1.jpg);
+}
+
+.dg2{
+    background-image: url(dg2.jpg);
+}
+
+.dg3{
+    background-image: url(deg3.jpg);
+}
+
+.card:hover{
+    background-color: rgb(211, 161, 186);
+    color: azure;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}

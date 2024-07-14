@@ -1,0 +1,81 @@
+.main-contain{
+    text-align: center;
+    text-decoration: double;
+    color: rgb(163, 209, 194);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(17, 16, 16);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: rgb(16, 70, 67);
+    text-align: center;
+    width: 228px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image{
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.im-2{
+    background-image: url(car2.jpg);
+}
+
+.im-3{
+    background-image: url(car3.jpg);
+}
+
+.im-4{
+    background-image: url(family.labuan.jpg);
+}
+
+.im-5{
+    background-image: url(tompok.jpg);
+}
+
+.im-6{
+    background-image: url(tompok\ tidur.jpg);
+}
+
+.im-7{
+    background-image: url(pororo.jpg);
+}
+
+.im-8{
+    background-image: url(arnab\ bertiga.jpg);
+}
+
+.im-9{
+    background-image: url(arnab\ berdua.jpg);
+}
+
+.im-10{
+    background-image: url(potamnij.jpg);
+}
+
+.card:hover{
+    background-color: cadetblue;
+    color: azure;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}
